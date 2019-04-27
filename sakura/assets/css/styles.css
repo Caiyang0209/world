@@ -1,0 +1,109 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background: #e5ece7;
+	position:relative;
+	background:url('../img/page_bg_center.jpg') no-repeat fixed center top; margin:0; padding:0;
+	background-size: cover;   
+	-webkit-background-size: cover;   
+	-moz-background-size: cover;   
+	-o-background-size: cover;
+	-o-background-size: cover;
+}
+
+body{	
+	/*min-height: 600px;
+    padding: 200px 0 0;*/
+    text-align:center;
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+section, footer{
+	display: block;
+}
+
+
+
+/*----------------------------
+	Main Section
+-----------------------------*/
+
+#note{
+	/*color: #666666;*/
+	color: #ffffff;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 4px;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	width: 450px;
+}
+
+#sentence{
+	color: #ffffff;
+	font-size: 40px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	text-align: center;
+	margin: 0 auto;
+	position:absolute；
+	width: 450px;
+	top: 100px;
+	opacity: 0;
+}
+
+#diary{
+	color: #ffffff;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 4px;
+	text-align: right;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	width: 450px;
+}
+
+#video-container{
+	width: 600px;
+   height: 400px;
+   /*margin: 0 auto;*/
+/*   opacity: 0;*/
+}
+
+.videos{
+	position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+/*#taici{
+	background:url('../img/cm5s.png') no-repeat center center;
+	min-height: 320px;
+    padding: 150px 0 0;
+}*/
